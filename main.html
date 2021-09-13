@@ -95,6 +95,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__content">1問目の謎を解くことができた！<br>
                 さぁ令和に戻るために<br>
                 謎を解き進めよう!
+               
               </div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
@@ -125,12 +126,9 @@ Youtube貼り付けここまで -->
                 <br>
                 ※回答は半角英数字で行うこと
                 
-                </p>
-            <div class="container">
-               <figure class="image__container">
-               <img src="assets/images/2Q ナゾ 二問目.png" alt="">
-                   </figure>
               
+              
+              </p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -150,7 +148,8 @@ Youtube貼り付けここまで -->
                 <!-- STAGE2-1　ここから -->
                 <div class="column">
                   <!-- STAGE2-1問題セクション　ここから -->
-     
+                  <figure class="image__container">
+                    <img src="assets/images/2Q ナゾ 二問目.png" alt="">
                   </figure>
                   <!-- STAGE2-1問題セクション　ここまで -->
                   <!-- STAGE2-1解答入力セクション　ここから -->
@@ -204,7 +203,8 @@ Youtube貼り付けここまで -->
               <div class="clear-message__content">
                 2問目を解くことができた！
                 だが、まだ令和に戻ることはできなさそうだ。<br>
-               もう1問ぐらい解いたら戻ることができるようになるかもしれない。 </div>
+               もう1問ぐらい解いたら戻ることができるようになるかもしれない。<br>
+              (ここで充電のバーが残り1になっていることに気づく)</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -226,7 +226,6 @@ Youtube貼り付けここまで -->
               第三問　「赤いものが赤くなくなった時」<br>
               <br>
               この謎の答えがタイムリミットを表すらしい。。<br>
-              <br>
               ※解答は漢字2文字で行うこと
             
             </p>
